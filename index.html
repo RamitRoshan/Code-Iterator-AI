@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aicade AI Code Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Aicade AI Code Assistant</h1>
+
+  <!-- Code Input Area -->
+  <textarea id="codeInput" placeholder="Paste your game code here..."></textarea>
+
+  <!-- Prompt Input Area -->
+  <textarea id="promptInput" placeholder="Describe what you want to change..."></textarea>
+
+  <!-- Button to Submit -->
+  <button id="submitBtn">Get Suggestions</button>
+
+  <!-- Suggestion Output Box -->
+  <div id="suggestionBox" style="display: none;">
+    <h2>Suggested Code:</h2>
+    <pre id="suggestedCode"></pre>
+
+    <h2>Explanation:</h2>
+    <p id="explanation"></p>
+
+    <!-- Button to Integrate Code -->
+    <button id="integrateBtn">Integrate Code</button>
+  </div>
+
+  <!-- Final Output Box -->
+  <div id="finalOutput" style="display: none;">
+    <h2>Final Integrated Code:</h2>
+    <pre id="finalCode"></pre>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
